@@ -208,17 +208,24 @@ section .muur {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2em;
+    gap: 1em;
 }
 
 .muur:last-of-type h1 {
     color: #0971c6;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
 }
 
 .muur:last-of-type p {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2em;
+    font-weight: bold;
+}
+
+.muur svg {
+    border-radius: 1em;
 }
 
 #button_4 img {
